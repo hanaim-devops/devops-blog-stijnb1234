@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Stop en verwijder eventueel bestaande container
+docker rm -f devops-blog-container || true
+
+# Voer de Docker build uit met build argumenten voor versie en laatste update
+docker build -t devops-blog-image:latest .
+
+# Start een nieuwe container vanuit de gegenereerde Docker image
+docker run --name devops-blog-container -d -p 8081:80 devops-blog-image
+
+# Toon een bericht met de link naar de site
+echo "Site nu te checken op: http://localhost:8081/"
+
