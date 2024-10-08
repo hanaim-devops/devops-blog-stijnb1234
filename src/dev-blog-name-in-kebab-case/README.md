@@ -28,37 +28,37 @@ Hoe zorgt Highlight.io voor effectieve monitoring en foutopsporing in een micros
 
 ### 1. Wat zijn de kernfunctionaliteiten van de tool?
 
-![Literature Study](plaatjes/literature-study.png)
+<img src="plaatjes/literature-study.png" alt="Literature Study" width="200"/>
 
 Om de kernfunctionaliteiten van Highlight.io te achterhalen, wordt er een literatuurstudie uitgevoerd. Hierbij wordt de documentatie van Highlight.io bestudeerd en worden er eventueel andere bronnen geraadpleegd.
 
 ### 2. Hoe integreer je de tool in de frontend van een microservices-applicatie?
 
-![Literature Study](plaatjes/literature-study.png)
+<img src="plaatjes/literature-study.png" alt="Literature Study" width="200"/>
 
 Om vervolgens helder te krijgen hoe de tool in de frontend van een microservices-applicatie geïntegreerd kan worden, wordt er een literatuurstudie uitgevoerd. Hierbij wordt de documentatie van Highlight.io bestudeerd en worden er eventueel andere bronnen geraadpleegd.
 
 ### 3. Hoe ziet deze integratie in de frontend eruit?
 
-![System Test](plaatjes/system-test.png)
+<img src="plaatjes/system-test.png" alt="System Test" width="200"/>
 
 De onderzochte informatie wordt vervolgens toegepast in een systeemtest. Hierbij wordt de integratie van Highlight.io in de frontend van een microservices-applicatie getest.
 
 ### 4. Hoe pas je de tool in je backend toe in C# en Java?
 
-![Literature Study](plaatjes/literature-study.png)
+<img src="plaatjes/literature-study.png" alt="Literature Study" width="200"/>
 
 Om te achterhalen hoe de tool in de backend van een microservices-applicatie toegepast kan worden, wordt er een literatuurstudie uitgevoerd. Hierbij wordt de documentatie van Highlight.io bestudeerd en worden er eventueel andere bronnen geraadpleegd.
 
 ### 5. Hoe ziet deze integratie in de backend eruit?
 
-![System Test](plaatjes/system-test.png)
+<img src="plaatjes/system-test.png" alt="System Test" width="200"/>
 
 De onderzochte informatie wordt vervolgens toegepast in een systeemtest. Hierbij wordt de integratie van Highlight.io in de backend van een microservices-applicatie getest.
 
 ### 6. Welke uitdagingen zijn er bij het implementeren van de tool in een microservices-architectuur?
 
-![Problem Analyse](plaatjes/problem-analyse.png)
+<img src="plaatjes/problem-analyse.png" alt="Problem Analyse" width="200"/>
 
 Om de uitdagingen bij het implementeren van Highlight.io in een microservices-architectuur in kaart te brengen, wordt er een probleemanalyse uitgevoerd. Hierbij worden de resultaten van de literatuurstudies en systeemtests geanalyseerd.
 
