@@ -22,7 +22,7 @@ H = highlight_io.H(
 
 @app.errorhandler(Exception)
 def handle_general_exception(exc: Exception):
-    highlight_io.H.get_instance().record_exception(exc)
+    H.record_exception(exc)
     return jsonify(error="internal error", message=str(exc), trace=traceback.format_exc()), 503
 
 
