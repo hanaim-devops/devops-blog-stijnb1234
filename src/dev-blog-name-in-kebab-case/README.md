@@ -80,4 +80,5 @@ Om de uitdagingen bij het implementeren van Highlight.io in een microservices-ar
 
 ## Bronnen
 
-* OpenAI. (2024). ChatGPT (4 Okt. versie) [Large language model]. chat.openai.com/chat.
+* OpenAI. (2024). ChatGPT (4 Okt. versie) [Large language model]. https://chat.openai.com/chat
+* Hbo-I. (z.d.). ICT Research Methods — Methods Pack for Research in ICT. ICT Research Methods. https://ictresearchmethods.nl/
