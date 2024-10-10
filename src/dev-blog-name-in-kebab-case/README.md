@@ -5,7 +5,7 @@
 *[Stijn Bannink, oktober 2024.](https://gitlab.devops.aimsites.nl/group-b-2024-rabbitmq/wk6-stijn-bannink-highlight)*
 <hr/>
 
-Hightlight.io is een uitgebreide monitoring tool voor applicaties, die ook ingezet kan worden in een
+Highlight.io is een uitgebreide monitoring tool voor applicaties, die ook ingezet kan worden in een
 microservices-architectuur. In dit onderzoek wordt gekeken naar de kernfunctionaliteiten van de tool, hoe je de tool
 integreert in de frontend en backend van een microservices-applicatie en welke uitdagingen er zijn bij het implementeren
 van de tool in een microservices-architectuur.
