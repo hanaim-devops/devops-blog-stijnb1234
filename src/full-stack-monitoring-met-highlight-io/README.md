@@ -229,7 +229,7 @@ identificeren, zodat je weet welke sessies bij welke gebruikers horen.
 ## Bronnen
 
 * OpenAI. (2024). ChatGPT (4 Okt. versie) [Large language model]. [https://chat.openai.com/chat](https://chat.openai.com/chat)
-* Khatri, J. (2024, 9 april). Highlight.io: Open Source Application Monitoring for Developers. The New Stack. [https://thenewstack.io/highlight-io-open-source-application-monitoring-for-developers/]([https://thenewstack.io/highlight-io-open-source-application-monitoring-for-developers/])
+* Khatri, J. (2024, 9 april). Highlight.io: Open Source Application Monitoring for Developers. The New Stack. [https://thenewstack.io/highlight-io-open-source-application-monitoring-for-developers/](https://thenewstack.io/highlight-io-open-source-application-monitoring-for-developers/)
 * Welcome to highlight.io. (z.d.). Highlight. [https://www.highlight.io/docs](https://www.highlight.io/docs)
 * Fullstack mapping. (z.d.). Highlight. [https://www.highlight.io/docs/getting-started/frontend-backend-mapping](https://www.highlight.io/docs/getting-started/frontend-backend-mapping)
 * Serilog. (z.d.). Provided sinks. GitHub. [https://github.com/serilog/serilog/wiki/Provided-Sinks](https://github.com/serilog/serilog/wiki/Provided-Sinks)
