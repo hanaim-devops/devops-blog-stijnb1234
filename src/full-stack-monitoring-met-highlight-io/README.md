@@ -6,7 +6,7 @@
 <hr/>
 
 Highlight.io is een uitgebreide monitoring tool voor applicaties, die ook ingezet kan worden in een
-microservices-architectuur. In dit onderzoek wordt gekeken naar de kernfunctionaliteiten van de tool, hoe je de tool
+microservices-architectuur [[1]](https://thenewstack.io/highlight-io-open-source-application-monitoring-for-developers/). In dit onderzoek wordt gekeken naar de kernfunctionaliteiten van de tool, hoe je de tool
 integreert in de frontend en backend van een microservices-applicatie en welke uitdagingen er zijn bij het implementeren
 van de tool in een microservices-architectuur.
 
@@ -39,14 +39,14 @@ Met sessie monitoring kun je meekijken met de gebruikers van de applicatie. Je k
 bekijken en analyseren. Zo kun je super eenvoudig zien hoe bugs ontstaan en waar je voor een oplossing moet zoeken.
 
 Daarnaast kun je ook zien welke netwerkverzoeken er binnen een sessie zijn gedaan en wat de response hier is geweest. Zo
-kun je het ook direct zien als een API call niet goed gaat.
+kun je het ook direct zien als een API call niet goed gaat. [[2]](https://www.highlight.io/docs)
 
 ### Error tracking & logging
 
 <img src="plaatjes/resultaten/error-tracking.png" alt="Error tracking"/>
 
 Met error tracking krijg je een melding als er een fout optreedt in de applicatie. Je kunt direct zien op welke regel de
-fout is opgetreden en wat de foutmelding is. Zo kun je snel de oorzaak van de fout achterhalen en deze oplossen.
+fout is opgetreden en wat de foutmelding is. Zo kun je snel de oorzaak van de fout achterhalen en deze oplossen. [[2]](https://www.highlight.io/docs)
 
 Highlight.io groepeert de errors automatisch, zodat je snel kunt zien welke errors het meest voorkomen. Je krijgt per
 dag te zien hoe vaak de error is voorgekomen.
@@ -59,7 +59,7 @@ wanneer een API call wordt gedaan. Dit kan ook helpen om inzicht te krijgen in d
 <img src="plaatjes/resultaten/metrics.png" alt="Metrics"/>
 
 Met metrics kun je de prestaties van de applicatie overzichtelijk in kaart brengen. Je kunt zelf grafieken toevoegen,
-zoals de traagste API calls, het aantal errors per type browser, de meest bezochte pagina's, enzovoort.
+zoals de traagste API calls, het aantal errors per type browser, de meest bezochte pagina's, enzovoort. [[2]](https://www.highlight.io/docs)
 
 ### Integraties
 
@@ -76,7 +76,7 @@ applicatie.
 
 Highlight.io biedt ook de mogelijkheid om gebruikers te identificeren. Zo kun je bijvoorbeeld de gebruikersnaam of het
 e-mailadres van de gebruiker meesturen met de sessie monitoring. Zo kun je eenvoudig zien welke sessies bij welke
-gebruikers horen.
+gebruikers horen. [[3]](https://www.highlight.io/docs/getting-started/frontend-backend-mapping)
 
 Ik heb Highlight.io geïntegreerd in een React.js applicatie. Ik heb hiervoor alleen de library moeten toevoegen en een
 paar regels code moeten toevoegen.
@@ -136,7 +136,7 @@ function login() {
 
 Highlight.io kan ook met veel van de populaire backend frameworks geïntegreerd worden. Zo kun je de tool eenvoudig
 toevoegen aan een Python, Node.js of C# .NET applicatie. In bijna alle gevallen levert de tool zelf een library die je
-kunt toevoegen aan je project. Vervolgens kun je de error tracking, logging en metrics toevoegen aan je applicatie.
+kunt toevoegen aan je project. Vervolgens kun je de error tracking, logging en metrics toevoegen aan je applicatie. [[3]](https://www.highlight.io/docs/getting-started/frontend-backend-mapping)
 
 ### Python
 
@@ -177,7 +177,7 @@ handig om te testen of de tool hier ook goed mee kan werken.
 
 Deze integratie werkt net zoals in vele andere talen via [OpenTelemetry](https://opentelemetry.io/). Je kunt de library
 toevoegen en integreren met
-[SeriLog](https://serilog.net/).
+[SeriLog](https://serilog.net/) [[4]](https://github.com/serilog/serilog/wiki/Provided-Sinks).
 
 ```cs
 Log.Logger = new LoggerConfiguration()
@@ -229,7 +229,7 @@ identificeren, zodat je weet welke sessies bij welke gebruikers horen.
 ## Bronnen
 
 * OpenAI. (2024). ChatGPT (4 Okt. versie) [Large language model]. [https://chat.openai.com/chat](https://chat.openai.com/chat)
-* Khatri, J. (2024, 9 april). Highlight.io: Open Source Application Monitoring for Developers. The New Stack. [https://thenewstack.io/highlight-io-open-source-application-monitoring-for-developers/](https://thenewstack.io/highlight-io-open-source-application-monitoring-for-developers/)
-* Welcome to highlight.io. (z.d.). Highlight. [https://www.highlight.io/docs](https://www.highlight.io/docs)
-* Fullstack mapping. (z.d.). Highlight. [https://www.highlight.io/docs/getting-started/frontend-backend-mapping](https://www.highlight.io/docs/getting-started/frontend-backend-mapping)
-* Serilog. (z.d.). Provided sinks. GitHub. [https://github.com/serilog/serilog/wiki/Provided-Sinks](https://github.com/serilog/serilog/wiki/Provided-Sinks)
+* [1] Khatri, J. (2024, 9 april). Highlight.io: Open Source Application Monitoring for Developers. The New Stack. [https://thenewstack.io/highlight-io-open-source-application-monitoring-for-developers/](https://thenewstack.io/highlight-io-open-source-application-monitoring-for-developers/)
+* [2] Welcome to highlight.io. (z.d.). Highlight. [https://www.highlight.io/docs](https://www.highlight.io/docs)
+* [3] Fullstack mapping. (z.d.). Highlight. [https://www.highlight.io/docs/getting-started/frontend-backend-mapping](https://www.highlight.io/docs/getting-started/frontend-backend-mapping)
+* [4] Serilog. (z.d.). Provided sinks. GitHub. [https://github.com/serilog/serilog/wiki/Provided-Sinks](https://github.com/serilog/serilog/wiki/Provided-Sinks)
